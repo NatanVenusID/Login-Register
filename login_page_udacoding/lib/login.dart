@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:login_page_udacoding/home_page.dart';
 import 'package:login_page_udacoding/register.dart';
 
-class SignUp extends StatefulWidget {
+class Loginpage extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends State<SignUp> {
-  TextEditingController controller = TextEditingController();
+class _MyAppState extends State<Loginpage> {
+  TextEditingController usernameController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
+
+  String username = "admin", password = "admin";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,6 +35,7 @@ class _MyAppState extends State<SignUp> {
                     height: 50,
                   ),
                   TextField(
+                    controller: usernameController,
                     decoration: InputDecoration(
                         fillColor: Colors.lightBlue[50],
                         filled: true,
@@ -49,6 +53,7 @@ class _MyAppState extends State<SignUp> {
                     maxLength: 30,
                   ),
                   TextField(
+                    controller: passwordController,
                     obscureText: true,
                     decoration: InputDecoration(
                         fillColor: Colors.lightBlue[50],
@@ -85,11 +90,19 @@ class _MyAppState extends State<SignUp> {
                     child: Text("Login"),
                     color: Colors.lightBlue,
                     onPressed: () {
-                      Navigator.pushReplacement(context,
-                          MaterialPageRoute(builder: (context) {
-                        return Home();
-                      }));
+                      if (usernameController != null &&
+                          usernameController.text == "admin" &&
+                          passwordController != null &&
+                          passwordController.text == "admin")
+                        Navigator.pushReplacement(context,
+                            MaterialPageRoute(builder: (context) {
+                          return Home();
+                        }));
+                      setState(() {
+                        username = usernameController.text;
+                      });
                     },
+                    
                   ),
                   SizedBox(
                     height: 12,

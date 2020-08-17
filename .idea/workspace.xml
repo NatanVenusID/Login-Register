@@ -22,7 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="C:/src/dartsdk-windows-x64-release/dart-sdk" />
+    <property name="last_opened_file_path" value="D:/flutterlearn/apiconnection_postmethod" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,10 +63,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1596896966702" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1596962092189">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1596978473566">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596962092189" />
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596978473566" />
     <state width="1220" height="160" key="GridCell.Tab.0.bottom" timestamp="1596962752585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -87,9 +87,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596962197894" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1596964304859">
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1596978428773">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596964304859" />
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596978428773" />
   </component>
 </project>

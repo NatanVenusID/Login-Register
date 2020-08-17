@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_page_udacoding/sign_up.dart';
+import 'package:login_page_udacoding/login.dart';
 
 import 'main.dart';
 
@@ -32,7 +32,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          SignUp()));
+                                          Loginpage()));
                             },
                             child: Icon(
                               Icons.arrow_back,
